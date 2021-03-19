@@ -27,6 +27,10 @@ const PlansScreen = () => {
 
   console.log(products);
 
+  const loadCheckout = async(priceId) => {
+    
+  }
+
   return <div className="plansScreen">
       {Object.entries(products).map(([productId, productData]) => {
           //TODO: add some logic to check if the user's subscription is active...
@@ -36,7 +40,7 @@ const PlansScreen = () => {
                       <h5>{productData.name}</h5>
                       <h6>{productData.description}</h6>
                   </div>
-                  <button>
+                  <button onClick={() => loadCheckout(productData.prices.priceId)}>
                       Subscribe
                   </button>
               </div>

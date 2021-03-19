@@ -24,7 +24,12 @@ const ProfileScreen = () => {
             <div className="profileScreen_plans">
               <h3>Plans</h3>
               <PlansScreen />
-              <button onClick={() => auth.signOut()} className="profileScreen_signOut">Sign Out</button>
+              <button
+                onClick={() => auth.signOut()}
+                className="profileScreen_signOut"
+              >
+                Sign Out
+              </button>
             </div>
           </div>
         </div>

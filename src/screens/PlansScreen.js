@@ -81,6 +81,13 @@ const PlansScreen = () => {
 
   return (
     <div className="plansScreen">
+      {subscription && (
+        <p>
+          Renewal date:{" "}
+          {new Date(
+              subscription?.current_period_end * 1000).toLocaleDateString()}
+        </p>
+      )}
       {Object.entries(products).map(([productId, productData]) => {
         //TODO: add some logic to check if the user's subscription is active...
         const isCurrentPackage = productData.name
@@ -88,7 +95,12 @@ const PlansScreen = () => {
           .includes(subscription?.role);
 
         return (
-          <div className="plansScreen_plan">
+          <div
+            key={productId}
+            className={`${
+              isCurrentPackage && "plansScreen_plan--disabled"
+            } plansScreen_plan`}
+          >
             <div className="plansScreen_info">
               <h5>{productData.name}</h5>
               <h6>{productData.description}</h6>

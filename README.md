@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Build a netflix clone with React. Generate a database with Firebase and do checkout/payments with Stripe.
 
+![alt text](https://github.com/klaryon/netflix-build-react/blob/main/public/assets/netflix-clone.gif?raw=true)
+
 ## API 
 
 The Movie Database

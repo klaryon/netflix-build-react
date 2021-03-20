@@ -55,6 +55,31 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+### Initializing Firebase
+
+### `yarn add -g firebase-tools` 
+Installs firebase CLI.
+
+### `firebase login` 
+Logs into your firebase account.
+
+### `firebase init` 
+Initializes firebase. Choose de following:
+* Hosting: Configure and deploy Firebase Hosting Sites.
+* Choose option: use an existing project.
+* Choose name of your project.
+* Public directory: build.
+* Single-page app: yes.
+* No automatic deploys with GitHub.
+
+### Deployment
+
+### `npm run build` 
+Runs so the build folder is ready to be deployed.
+
+### `firebase deploy` 
+Deploys with firebase.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -76,31 +101,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ma
 ### Advanced Configuration
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Initializing Firebase
-
-### `yarn add -g firebase-tools` 
-Installs firebase CLI.
-
-### `firebase login` 
-Logs into your firebase account.
-
-### `firebase init` 
-Initializes firebase. Choose de following:
-* Hosting: Configure and deploy Firebase Hosting Sites.
-* Choose option: use an existing project.
-* Choose name of your project.
-* Public directory: build.
-* Single-page app: yes.
-* No automatic deploys with GitHub.
-
-### Deployment
-
-### `npm run build` 
-Runs so build folder is ready to be deployed.
-
-### `firebase deploy` 
-Deploys in firebase.
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 # netflix-build-react

@@ -1,5 +1,23 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+# Build a netflix clone
+
+Build a netflix clone with React. Generate a database with Firebase and do checkout/payments with Stripe.
+
+## API 
+
+The Movie Database
+https://www.themoviedb.org/
+
+## Tools & Languages
+* React
+* Redux
+* CSS
+* Axios
+* Firebase (database and deployment)
+* Firebase stripe extension: Run subscription payments with stripe
+* Stripe (checkout/payments)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -59,11 +77,30 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ma
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
+### Initializing Firebase
+
+### `yarn add -g firebase-tools` 
+Installs firebase CLI.
+
+### `firebase login` 
+Logs into your firebase account.
+
+### `firebase init` 
+Initializes firebase. Choose de following:
+* Hosting: Configure and deploy Firebase Hosting Sites.
+* Choose option: use an existing project.
+* Choose name of your project.
+* Public directory: build.
+* Single-page app: yes.
+* No automatic deploys with GitHub.
+
 ### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+### `npm run build` 
+Runs so build folder is ready to be deployed.
 
-### `yarn build` fails to minify
+### `firebase deploy` 
+Deploys in firebase.
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 # netflix-build-react

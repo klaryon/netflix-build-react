@@ -77,7 +77,7 @@ Initializes firebase. Choose de following:
 ### Deployment
 
 ### `npm run build` 
-Runs so the build folder is ready to be deployed.
+Runs so the `build` folder is ready to be deployed.
 
 ### `firebase deploy` 
 Deploys with firebase.

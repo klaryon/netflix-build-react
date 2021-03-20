@@ -59,7 +59,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### Initializing Firebase
 
-### `yarn add -g firebase-tools` 
+### `yarn add firebase-tools` 
 Installs firebase CLI.
 
 ### `firebase login` 

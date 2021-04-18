@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
-
 # Build a netflix clone
 
 Build a netflix clone with React. Generate a database with Firebase and do checkout/payments with Stripe.
@@ -19,6 +17,8 @@ https://www.themoviedb.org/
 * Firebase (database and deployment)
 * Firebase stripe extension: Run subscription payments with stripe
 * Stripe (checkout/payments)
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
 

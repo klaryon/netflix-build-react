@@ -2,6 +2,9 @@
 
 Build a netflix clone with React. Generate a database with Firebase and do checkout/payments with Stripe.
 
+Get a preview at:
+* Deployed with firebase: https://netflix-build-react-5fcb3.web.app/
+
 ![alt text](https://github.com/klaryon/netflix-build-react/blob/main/public/assets/netflix-clone.gif?raw=true)
 
 ## API 
